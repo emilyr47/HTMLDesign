@@ -1,0 +1,150 @@
+.list-group-item {
+    line-height: 2.5;
+  }
+  
+  html {
+    background-color: #EFEFEF;
+  }
+  
+  #banner {
+    background-image: image("banner.png");
+  }
+  
+  #container {
+    background-image: image("banner.png");
+
+  }
+  
+  body {
+    opacity: 1;
+    transition: 1s opacity;
+    background: #fff;
+    width: 100%;
+  
+  }
+  body.fade-out {
+    opacity: 0;
+    transition: none;
+  }
+
+  
+  h1 {
+    margin-left: 500px;
+    margin-top: 50px;
+    font-family: 'sans-serif';
+    color: #282828;
+    height: 60px;
+  }
+  
+  #subtitle {
+    margin-left: 590px;
+    font-family: 'Lato', sans-serif;
+    color: #282828;
+    }
+
+
+
+  #top-part {
+    background-image: url(banner.png);
+    image-orientation: initial;
+    width: 100%;
+  }
+
+  
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    width: 300px;
+    margin-left: 1200px;
+  }
+
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    color: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a.icon:hover {
+    color: grey;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background: rgba(202, 235, 242, 0.4);
+    color: black;
+  }
+
+  
+  footer {
+    width: 100%;
+    height: 150px;
+    background:  #282828;
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+
+  
+  @media screen and (max-width: 992px) {
+  }
+  
+  @media screen and (max-width: 768px) {
+    h1 {
+      margin-left: 90px;
+    }
+  
+    #home-view {
+      margin-left: 15px;
+      margin-bottom: 15px;
+    }
+  
+    #myLinks {
+      margin-left: 0px;
+      margin-bottom: 15px;
+      margin-right: 1000px;
+    }
+  
+    #view-home {
+      margin-left: 15px;
+      margin-bottom: 0px;
+      
+    }
+  
+    #subtitle {
+      margin-left: 30px;
+      padding-bottom: 50px;
+    }
+  
+
+  @media screen and (max-width: 600px) {
+  
+    h1 {
+      margin-left: 30px;
+    }
+  
+    #subtitle {
+      margin-left: 30px;
+    }
+  
+  }
+}
