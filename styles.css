@@ -6,15 +6,6 @@
     background-color: #EFEFEF;
   }
   
-  #banner {
-    background-image: image("banner.png");
-  }
-  
-  #container {
-    background-image: image("banner.png");
-
-  }
-  
   body {
     opacity: 1;
     transition: 1s opacity;
@@ -70,6 +61,7 @@
     background-image: url(banner.png);
     image-orientation: initial;
     width: 100%;
+    height: 350px;
   }
 
   
@@ -80,6 +72,19 @@
     margin-left: 1200px;
   }
 
+  a {
+    color: white;
+
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+    cursor: pointer;
+
+  }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
@@ -133,23 +138,6 @@
   @media screen and (max-width: 768px) {
     h1 {
       margin-left: 90px;
-    }
-  
-    #home-view {
-      margin-left: 15px;
-      margin-bottom: 15px;
-    }
-  
-    #myLinks {
-      margin-left: 0px;
-      margin-bottom: 15px;
-      margin-right: 1000px;
-    }
-  
-    #view-home {
-      margin-left: 15px;
-      margin-bottom: 0px;
-      
     }
   
     #subtitle {
